@@ -1,0 +1,24 @@
+.hero-image {
+  max-height: 800px;
+}
+
+.descktop-size {
+  min-height: 800px;
+  display: grid;
+  grid-template-columns: minmax(auto, 612px) 1fr;
+  align-items: end;
+  justify-content: center;
+  column-gap: 60px;
+}
+
+.outer-form {
+  display: grid;
+  row-gap: 170px;
+}
+
+@media screen and (max-width: 1350px) {
+  .descktop-size {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+}

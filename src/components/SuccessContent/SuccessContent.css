@@ -1,0 +1,18 @@
+.already-sign-up {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  column-gap: 14px;
+}
+
+.already-sign-up a {
+  color: #585dec;
+}
+
+@media screen and (max-width: 768px) {
+  .already-sign-up {
+    margin-top: 0;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}

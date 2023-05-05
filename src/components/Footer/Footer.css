@@ -1,0 +1,24 @@
+footer {
+  max-width: 612px;
+  display: grid;
+  justify-items: center;
+  row-gap: 8px;
+}
+
+ul {
+  display: flex;
+  column-gap: 40px;
+  list-style: none;
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    position: relative;
+    top: -13px;
+    font-size: 8px;
+    line-height: 11px;
+  }
+  ul {
+    display: none;
+  }
+}

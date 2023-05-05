@@ -1,0 +1,28 @@
+.mobile-size {
+  max-width: 340px;
+  margin: auto;
+}
+
+.nett-tref-image-wrapper {
+  margin-top: 16px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 95px;
+  padding-right: 40px;
+}
+
+.nett-tref-image-wrapper img:nth-child(1) {
+  max-width: 86px;
+  align-self: end;
+}
+
+.nett-tref-image-wrapper img:nth-child(2) {
+  max-width: 44px;
+  justify-self: end;
+}
+
+.couple-image-wrapper img {
+  width: 100%;
+  position: relative;
+  top: -13px;
+}

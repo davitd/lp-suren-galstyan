@@ -1,0 +1,23 @@
+.login-page {
+  padding: 50px 77px 50px 150px;
+  max-width: 1440px;
+  margin: 0 auto;
+  min-height: 100vh;
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  color: #3e352f;
+}
+
+@media screen and (max-width: 1080px) {
+  .login-page {
+    padding: 30px 20px 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .login-page {
+    padding: 30px 9px 7px;
+  }
+}
